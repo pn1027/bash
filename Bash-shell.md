@@ -51,17 +51,16 @@ or
 nano filename.ext
 ```
 
-
-
-
-
-gh repo create bash --public --confirm
-gh repo create bash --public --confirm
-gh repo create bash --public --confirm
-git branch -m master main
-rm -r filename.ext
-touch filename.ext
-code filename.ext
-# or
-nano filename.ext
+## Check git status
+```bash
 git status
+```
+
+## Delete a file 
+```bash
+rm -r filename.ext
+```
+## View Repo in Browser
+```bash
+gh repo view --web
+```
