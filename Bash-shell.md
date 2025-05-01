@@ -21,6 +21,40 @@ This file contains a collection of Git commands that I have learned so far.
 
 ```bash
 gh auth login
+```
+
+## Create Public Repo  
+
+```bash 
+gh repo create bash --public --confirm
+```
+
+## Set Remote Origin
+```bash
+git remote set-url origin https://github.com/pn1027/bah.git
+```
+
+## Rename branch to main
+```bash
+git branch -m master main
+```
+
+## Create a file
+```bash
+touch filename.ext
+```
+
+## Edit a file
+```bash
+code filename.ext
+or 
+nano filename.ext
+```
+
+
+
+
+
 gh repo create bash --public --confirm
 gh repo create bash --public --confirm
 gh repo create bash --public --confirm
