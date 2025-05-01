@@ -21,6 +21,9 @@ This file contains a collection of Git commands that I have learned so far.
 
 ```bash
 gh auth login
+
+## Create Public Repo
+```bash
 gh repo create bash --public --confirm
 gh repo create bash --public --confirm
 gh repo create bash --public --confirm
